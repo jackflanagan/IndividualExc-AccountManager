@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+<script type="text/javascript" "src="mustache.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">AccountManager</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="showall.html">Show All</a></li>
+      <li><a href="addaccount.html">Add Account</a></li>
+      
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h2>Current Accounts</h2>
+
+<ul id="data">
+
+</ul> 
+
+<p>To edit details: type below and press the edit button on the account to change</p>
+
+<form id="info">
+ID:<br>
+  <input type="text" id="editID" >
+  <br>
+ First name:<br>
+  <input type="text" id="editfirstName" >
+  <br>
+  Second name:<br>
+  <input type="text" id="editsecondName" >
+  <br>
+  Account Number:<br>
+  <input type="text" id="editaccountNumber">
+  <br>
+  </form>
+</div>
+
+</body>
+</html>
