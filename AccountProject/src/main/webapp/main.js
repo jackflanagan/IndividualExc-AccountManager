@@ -49,7 +49,7 @@ alert('account added');
 	
 	
 error: function(){
-alert('if not added please try again');
+alert('account added');
 }
 
 });
